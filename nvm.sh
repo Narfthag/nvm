@@ -1630,7 +1630,7 @@ nvm_get_arch() {
   elif [ "_${NVM_OS}" = "_aix" ]; then
     HOST_ARCH=ppc64
   else
-    HOST_ARCH="$(command uname -m)"
+    HOST_ARCH="armv7l"
   fi
 
   local NVM_ARCH
